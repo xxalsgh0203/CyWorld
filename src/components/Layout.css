@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(133, 131, 131);
+}
+.container{
+    margin: 20px;
+    background: rgb(169, 210, 217);
+    border: 1px solid black;
+    position: relative;
+    width: 75%;
+    border-radius: 10px;
+    height: 90vh;
+}
+
+.box1{
+    background: lightgray;
+    top: 18px;
+    left: 15px;
+    height: 85vh;
+    width: 95%;
+    position: absolute;
+    border: 2px dashed rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.info{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    position: absolute;
+    height: 96%;
+    width: 150px;
+    left: 10px;
+}
+
+.miniroom{
+    background: rgb(255, 255, 255);
+    position: absolute;
+    width: 80%;
+    height: 96%;
+    left: 170px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 10px;
+}
+
+.music{
+    background: purple;
+    height: 50px;
+    width: 200px;
+    top: 20px;
+    left: 1350px;
+    position: absolute;
+}
+
+.menu{
+    background: rgb(35, 141, 179);
+    position: absolute;
+    width: 50px;
+    height: 500px;
+    left: 94.9%;
+}
