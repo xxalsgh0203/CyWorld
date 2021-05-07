@@ -3,14 +3,16 @@ import './Layout.css';
 function Layout(){
     return (
         <div>
-            <div className="container"> container
-                <div className="box1"> box1 
-                <div className="info"> info </div>
-                <div className="miniroom">miniroom</div>
-                <div className="menu"> menu </div>
-                </div>
+        <div class="container">
+            <div class="box1">
+            <section>
+                <div class="info"> info </div>
+                <div class="miniroom">miniroom</div>
+                <div class="menu"> menu </div>
+            </section>
             </div>
-            <div className="music"> music </div>
+        </div>
+        <div class="music"> music </div>
         </div>
     );
 }
