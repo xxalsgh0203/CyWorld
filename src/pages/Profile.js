@@ -1,7 +1,11 @@
 import Layout from '../components/Layout.js';
 
 function Profile(){
-    <Layout />
+    return (
+        <div>
+            <Layout />
+        </div>
+    )
 }
 
 export default Profile;

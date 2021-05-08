@@ -1,6 +1,9 @@
 import './Layout.css';
-
+import {useHistory} from 'react-router-dom';
 function Layout(){
+
+    let history = useHistory();
+
     return (
         <div>
         <div class="container">
@@ -10,8 +13,8 @@ function Layout(){
                 <div class="info"> info </div>
                 <div class="miniroom"> <h4>미니룸</h4> </div>
                 <div class="menu">
-                    <button>홈</button>
-                    <button>프로필</button>
+                    <button onClick={()=>{history.push('/')}}>홈</button>
+                    <button onClick={()=>{history.push('/profile')}}>프로필</button>
                 </div>
             </section>
             </div>
