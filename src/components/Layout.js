@@ -13,13 +13,13 @@ function Layout(){
                 <div class="info"> info </div>
                 <div class="miniroom"> <h4>미니룸</h4> </div>
                 <div class="menu">
-                    <button onClick={()=>{history.push('/')}}>홈</button>
-                    <button onClick={()=>{history.push('/profile')}}>프로필</button>
+                    <button onClick={()=>{history.push('/')}}><h4>홈</h4></button>
+                    <button onClick={()=>{history.push('/profile')}}><h4>프로필</h4></button>
+                    <button onClick={()=>{history.push('/settings')}}><h4>설정</h4></button>
                 </div>
             </section>
             </div>
         </div>
-
         </div>
     );
 }
