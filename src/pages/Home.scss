@@ -59,6 +59,29 @@
   .info img{
       margin-top: 20px;
   }
+  .informations{
+      margin-top: 100%;
+      margin-left: 5%;;
+  }
+
+  .informations hr{
+    border: none;
+    border-top: 1px dotted rgb(98, 98, 99);
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 95%;
+    margin-right: 15%;
+  }
+
+  .my-name{
+    margin-top: 5%;
+    margin-right: 5px;
+    color: rgb(35, 141, 179);
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
   .miniroom{
       z-index:1;
       background: rgb(255, 255, 255);

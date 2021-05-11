@@ -12,7 +12,17 @@ function Home(){
             <div class="box1">
             <h3>김민호님의 미니홈피</h3> 
             <section>
-                <div class="info"><div><img src="https://newsimg.hankookilbo.com/cms/articlerelease/2020/06/05/202006051888034625_5.jpg" width="100%"></img></div></div> 
+                <div class="info">
+                    <div>
+                        <img src="https://newsimg.hankookilbo.com/cms/articlerelease/2020/06/05/202006051888034625_5.jpg" width="100%"></img>
+                        <div className="informations">
+                            <hr />
+                            <span className="my-name">김민호</span>
+                            <span className="my-sex">김민호입니다</span>
+                            <span className="my-birthday">25살입니다</span>
+                        </div>
+                    </div>
+                </div> 
                 <div class="miniroom"> <div className="content"><h4>미니룸</h4><img src="https://danbiilee.github.io/react-miniportfoly/resources/img/miniroom.gif" width="93%"></img> </div></div>
                 <div class="menu">
                     <button className="buttons" onClick={()=>{history.push('/')}}><h4>홈</h4></button>
