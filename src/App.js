@@ -1,23 +1,26 @@
+import {useState} from 'react';
+import { getByTitle } from '@testing-library/dom';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from './pages/Home.js';
 import Profile from './pages/Profile.js';
 import Settings from './pages/Settings.js';
 
 function App() {
-  return (
+  let [title, changeTitle] = useState('김민호 님의 미니홈피');
 
+  return (
     <BrowserRouter>
     <Switch>
       <Route exact path="/">
-        <Home />
+        <Home title={title}/>
       </Route>
 
       <Route exact path="/profile">
-        <Profile />
+        <Profile title={title}/>
       </Route>
 
       <Route exact path="/settings">
-        <Settings />
+        <Settings title={title} changeTitle={changeTitle}/>
       </Route>
     </Switch>
     </BrowserRouter>

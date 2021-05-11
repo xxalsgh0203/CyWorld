@@ -2,7 +2,7 @@ import Layout from '../components/Layout.js';
 import {useHistory} from 'react-router-dom';
 import './Home.scss';
 
-function Home(){
+function Home(props){
 
     let history = useHistory();
 
@@ -10,7 +10,7 @@ function Home(){
         <div>
         <div class="container">
             <div class="box1">
-            <h3>김민호님의 미니홈피</h3> 
+            <h3>{props.title}</h3> 
             <section>
                 <div class="info">
                     <div>
