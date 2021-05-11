@@ -74,12 +74,36 @@
     margin-right: 15%;
   }
 
+  .my-contents{
+    margin-top:8%;
+  }
+
   .my-name{
+    margin-left: 10%;
     margin-top: 5%;
     margin-right: 5px;
     color: rgb(35, 141, 179);
     font-size: 1rem;
     font-weight: bold;
+  }
+
+  .my-sex{
+    margin-right: 2px;
+    font-size: 0.8rem;
+    color: rgb(158, 158, 158);
+  }
+
+  .my-birthday{
+    margin-right: 2px;
+    font-size: 0.8rem;
+    color: rgb(158, 158, 158);
+  }
+
+  .my-email{
+    font-size:0.9rem;
+    margin-left: 7%;
+    margin-top: 2%;
+    color: orange;
   }
 
   .miniroom{
@@ -98,8 +122,20 @@
       margin-top: 10px;
   }
   .miniroom img{
-      margin-left: 35px;
+      margin-left: 3.3%;
   }
+
+  .guest-book hr{
+    border: none;
+    border-top: 1px dotted rgb(98, 98, 99);
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+  }
+
   .music{
       background: purple;
       height: 50px;

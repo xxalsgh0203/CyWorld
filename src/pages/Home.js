@@ -17,13 +17,25 @@ function Home(){
                         <img src="https://newsimg.hankookilbo.com/cms/articlerelease/2020/06/05/202006051888034625_5.jpg" width="100%"></img>
                         <div className="informations">
                             <hr />
-                            <span className="my-name">김민호</span>
-                            <span className="my-sex">김민호입니다</span>
-                            <span className="my-birthday">25살입니다</span>
+                            <div className="my-contents">
+                                <span className="my-name">김민호</span>
+                                <span className="my-sex">(♂)</span>
+                                <span className="my-birthday">1997.02.03</span>
+                                <p className="my-email">xxalsgh0203@gmail.com</p>
+                            </div>
                         </div>
                     </div>
                 </div> 
-                <div class="miniroom"> <div className="content"><h4>미니룸</h4><img src="https://danbiilee.github.io/react-miniportfoly/resources/img/miniroom.gif" width="93%"></img> </div></div>
+                <div class="miniroom"> 
+                    <div className="content">
+                        <h4>미니룸</h4>
+                        <img src="https://danbiilee.github.io/react-miniportfoly/resources/img/miniroom.gif" width="93%"></img>
+                        <div className="guest-book">
+                            <hr />
+                            <h4>일촌평</h4>
+                        </div> 
+                    </div>
+                </div>
                 <div class="menu">
                     <button className="buttons" onClick={()=>{history.push('/')}}><h4>홈</h4></button>
                     <button className="buttons" onClick={()=>{history.push('/profile')}}><h4>프로필</h4></button>
