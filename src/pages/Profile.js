@@ -14,18 +14,17 @@ function Profile(props){
                 <div class="info">
                     <div>
                         <div className="my-private-profile">
-                            <div className="my-private-introductions">👩‍💻내 소개</div>
+                            <h4>Profile</h4><hr></hr>
+                            <section>👩‍💻내 소개</section>
+                            <section>👭내 인맥</section>
+                            <section>⭐내 즐겨찾기</section>
                         </div>
                     </div>
                 </div> 
                 <div class="miniroom"> 
                     <div className="content">
-                        <h4>미니룸</h4>
-                        <img src="https://danbiilee.github.io/react-miniportfoly/resources/img/miniroom.gif" width="93%"></img>
-                        <div className="guest-book">
-                            <hr />
-                            <h4>일촌평</h4>
-                        </div> 
+                        <h4>내 소개</h4>
+                        <img src="https://danbiilee.github.io/react-miniportfoly/resources/img/aboutMe.JPG" width="93%"></img>
                     </div>
                 </div>
                 <div class="menu">

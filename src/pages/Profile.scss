@@ -9,7 +9,21 @@
   background: rgb(35, 141, 179);
 }
 
+.my-private-profile h4{
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 5px;
+  color: rgb(35, 141, 179);
+  font-size: 1rem;
+  font-weight: bold;
+}
 
-.my-private-introductions{
-  height:30%
+.my-private-profile hr{
+  margin-top: 10px;
+  margin-left: 7%;
+  width: 85%;
+}
+
+.my-private-profile section {
+  margin-left: 15px;
 }

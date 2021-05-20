@@ -28,12 +28,7 @@ function Settings(props){
                 <div class="miniroom"> 
                     <div className="content">
                         <div className="setting">
-                            <p>배경화면 색상 변경</p>
-                            <p>메뉴 색상 변경</p>
-                            <p>프로필 정보 변경</p>
-                            <p>주크박스 만들기</p>
-                            <p>미니홈피 제목변경 더 수정하기</p>
-                            <p>버튼 클릭시 메뉴색깔 흰색으로 바뀌게</p>
+
                         </div>
                     </div>
                 </div>
