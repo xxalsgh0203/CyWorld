@@ -1,6 +1,5 @@
-import Layout from '../components/Layout.js';
-import {useHistory} from 'react-router-dom';
 import './Profile.scss';
+import {useHistory} from 'react-router-dom';
 
 function Profile(props){
 
@@ -15,9 +14,9 @@ function Profile(props){
                 <div class="info"> info </div>
                 <div class="miniroom"> <div className="content"> </div></div>
                 <div class="menu">
-                    <button className="home" onClick={()=>{history.push('/')}}><h4>홈</h4></button>
-                    <button className="profile" onClick={()=>{history.push('/profile')}}><h4>프로필</h4></button>
-                    <button className="settings" onClick={()=>{history.push('/settings')}}><h4>설정</h4></button>
+                    <button className="home" id="home2" onClick={()=>{history.push('/')}}><h4>홈</h4></button>
+                    <button className="profile" id="profile2" onClick={()=>{history.push('/profile')}}><h4>프로필</h4></button>
+                    <button className="settings" id="settings2" onClick={()=>{history.push('/settings')}}><h4>설정</h4></button>
                 </div>
             </section>
             </div>

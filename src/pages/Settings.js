@@ -1,4 +1,3 @@
-import Layout from '../components/Layout.js';
 import {useHistory} from 'react-router-dom';
 import './Settings.scss';
 
@@ -39,9 +38,9 @@ function Settings(props){
                     </div>
                 </div>
                 <div class="menu">
-                    <button className="buttons" onClick={()=>{history.push('/')}}><h4>홈</h4></button>
-                    <button className="buttons" onClick={()=>{history.push('/profile')}}><h4>프로필</h4></button>
-                    <button className="buttons" onClick={()=>{history.push('/settings')}}><h4>설정</h4></button>
+                    <button className="buttons" id="home3" onClick={()=>{history.push('/')}}><h4>홈</h4></button>
+                    <button className="buttons" id="profile3" onClick={()=>{history.push('/profile')}}><h4>프로필</h4></button>
+                    <button className="buttons" id="settings3" onClick={()=>{history.push('/settings')}}><h4>설정</h4></button>
                 </div>
             </section>
             </div>
