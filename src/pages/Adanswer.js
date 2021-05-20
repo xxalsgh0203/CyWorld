@@ -1,7 +1,6 @@
-import './Profile.scss';
 import {useHistory} from 'react-router-dom';
 
-function Profile(props){
+function Adanswer(props){
 
     let history = useHistory();
 
@@ -27,7 +26,7 @@ function Profile(props){
                 <div class="miniroom"> 
                     <div className="content">
                         <h4>내 소개</h4>
-                        <img src="https://danbiilee.github.io/react-miniportfoly/resources/img/aboutMe.JPG" width="93%"></img>
+                        
                         <div className="guest-book">
                             <hr />
                             <h4>댓글</h4>
@@ -46,4 +45,4 @@ function Profile(props){
     );
 }
 
-export default Profile;
+export default Adanswer;
