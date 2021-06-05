@@ -3,7 +3,7 @@ import './Home.scss';
 
 function Home(props){
 
-    let history = useHistory();
+    let history = useHistory(); 
 
     return (
         <div>
@@ -31,7 +31,7 @@ function Home(props){
                         <img src="https://danbiilee.github.io/react-miniportfoly/resources/img/miniroom.gif" width="93%"></img>
                         <div className="guest-book">
                             <hr />
-                            <h4>일촌평 <input type="text" value="이웃에게 일촌평을 남겨주세요~!"></input> <button>확인</button></h4>
+                            <h4>일촌평 <input type="이웃에게 일촌평을 남겨주세요~!"  class="guest_write"></input> <button>확인</button></h4>
                         </div> 
                     </div>
                 </div>
@@ -46,5 +46,6 @@ function Home(props){
         </div>
     );
 }
+
 
 export default Home;
