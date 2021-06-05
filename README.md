@@ -1,4 +1,14 @@
 
+
 ## 2021.05.11   
 ### worked on Layouts!
-<img src="https://user-images.githubusercontent.com/62753490/117771760-65914580-b271-11eb-99fe-78a97a5dd5d2.png" width="75%">
+<img src="https://user-images.githubusercontent.com/62753490/120095778-bbffee80-c162-11eb-8a53-16af913576f5.gif" width="75%">
+
+### Still Need to improve
+** Music <hr/>
+** Setting (Input section - change name) + change profile <hr/>
+** change background color function <hr/>
+** comment function <hr/>
+
+
+
